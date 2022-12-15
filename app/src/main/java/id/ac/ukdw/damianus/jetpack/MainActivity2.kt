@@ -2,6 +2,7 @@ package id.ac.ukdw.damianus.jetpack
 
 import android.annotation.SuppressLint
 import android.content.ContentValues.TAG
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
@@ -32,8 +33,13 @@ class MainActivity2 : AppCompatActivity() {
             }.addOnFailureListener {
                 Log.d(TAG, "Penyimpanan Gagal")
             }
+            buttons.setOnClickListener {
+                val intent = Intent(this, MainActivity3::class.java)
+                startActivity(intent)
 
+            }
         }
+
 
 
     }
