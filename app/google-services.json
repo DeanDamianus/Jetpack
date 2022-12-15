@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "473251116036",
+    "project_id": "jetpack-8e5ed",
+    "storage_bucket": "jetpack-8e5ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473251116036:android:3cf9f31bf91966c9cdb151",
+        "android_client_info": {
+          "package_name": "id.ac.ukdw.damianus.jetpack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473251116036-af5qqign62uk4d6o5hi0iuh741mf49dj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXrPL0qAAh9oWxg5rvLmgB3puVMsjlFOU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473251116036-af5qqign62uk4d6o5hi0iuh741mf49dj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
