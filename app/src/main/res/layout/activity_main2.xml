@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:textColor="@color/white"
             android:text="Tambah Notes"
-            android:textSize="39sp">
+            android:textSize="39sp"/>
     </RelativeLayout>
 
     <LinearLayout
@@ -70,8 +70,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="30dp"
-        android:layout_marginLeft="160dp"
+        android:layout_alignParentEnd="true"
         android:text="submit" />
 
 
