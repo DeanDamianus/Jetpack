@@ -25,6 +25,7 @@ class MainActivity2 : AppCompatActivity() {
         val dates = findViewById<EditText>(R.id.tanggal)
         val content = findViewById<EditText>(R.id.isi)
         val buttons = findViewById<Button>(R.id.submit)
+        val delet = findViewById<Button>(R.id.delete)
 
         buttons.setOnClickListener{
             val tables = table(titles.text.toString(), dates.text.toString() , content.text.toString())
@@ -38,6 +39,10 @@ class MainActivity2 : AppCompatActivity() {
                 startActivity(intent)
 
             }
+        }
+        delet.setOnClickListener {
+            val intent = Intent(this, delet::class.java)
+            startActivity(intent)
         }
 
 
